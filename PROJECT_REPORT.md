@@ -4,11 +4,10 @@
 
 ---
 
-**Course:** Pattern Recognition  
-**Semester:** Monsoon 2025  
-**Submission Date:** November 14, 2025  
+**Name:** Abhijit Patil
+**Roll No:** S20230020332
 
-**GitHub Repository:** [https://github.com/piotr-szachewicz/event-related-desynchronization](https://github.com/piotr-szachewicz/event-related-desynchronization)
+**GitHub Repository:** [https://github.com/piotr-szachewicz/event-related-desynchronization](https://github.com/abhijit-23blaze/EEG-motor-imagery-classifier)
 
 ---
 
@@ -622,7 +621,7 @@ The system demonstrates feasibility for practical BCI applications:
 
 ## 12. Code Repository
 
-**GitHub Link:** [https://github.com/piotr-szachewicz/event-related-desynchronization](https://github.com/piotr-szachewicz/event-related-desynchronization)
+**GitHub Link:** [https://github.com/piotr-szachewicz/event-related-desynchronization](https://github.com/abhijit-23blaze/EEG-motor-imagery-classifier)
 
 ### Repository Structure
 
@@ -712,40 +711,7 @@ where n=samples, c=channels, f=features
 
 ## Appendix B: Individual Contributions
 
-**Note:** *This section should be filled by team members detailing individual contributions.*
-
-### Team Member 1: [Name]
-**Roll Number:** [Roll No]
-
-**Contributions:**
-- [ ] Data preprocessing and filtering implementation
-- [ ] CSP algorithm implementation
-- [ ] Feature extraction code
-- [ ] Documentation
-- **Lines of code contributed:** [X]
-- **Time invested:** [Y hours]
-
-### Team Member 2: [Name]
-**Roll Number:** [Roll No]
-
-**Contributions:**
-- [ ] LDA classifier implementation
-- [ ] Evaluation metrics
-- [ ] Experimental setup and parameter tuning
-- [ ] Report writing
-- **Lines of code contributed:** [X]
-- **Time invested:** [Y hours]
-
-### Team Member 3: [Name] (if applicable)
-**Roll Number:** [Roll No]
-
-**Contributions:**
-- [ ] Data analysis and visualization
-- [ ] Comparison studies
-- [ ] Performance optimization
-- [ ] Presentation preparation
-- **Lines of code contributed:** [X]
-- **Time invested:** [Y hours]
+by Abhijit Patil
 
 ---
 
@@ -776,60 +742,5 @@ Mean training kappa: 0.7891
 Mean test set kappa: 0.4613
 ```
 
----
 
-## Appendix D: Additional Visualizations
-
-### ERD Pattern Example
-
-```
-Power (μV²)     LEFT HAND Motor Imagery
-    │
-    │     Baseline    │  Motor Imagery Period
- 10 │     ∿∿∿∿∿∿∿    │  ∼∼∼∼∼∼∼∼∼∼
-    │                 │  (Decreased power = ERD)
-  5 │                 │
-    │                 │
-  0 └─────────────────┼──────────────────────→ Time
-            Cue       0s    2s    4s    6s
-            appears
-```
-
-### CSP Effect Visualization
-
-```
-BEFORE CSP (mixed signals):
-Channel 1: ∿∿∿∿∿∿∿∿
-Channel 2: ∿∿∿∿∿∿∿∿
-...
-
-AFTER CSP (separated signals):
-Component 1: ∿∿∿∿∿∿  (Left hand strong)
-Component 2: ∼∼∼∼∼∼  (Right hand strong)
-```
-
----
-
-## Declaration
-
-We hereby declare that this project report is our original work and has been completed as part of the Pattern Recognition course (Monsoon 2025). All sources have been properly cited, and no plagiarism or copying from other teams has occurred.
-
-**Date:** November 14, 2025
-
-**Team Members:**
-1. _________________ (Roll No: _________)
-2. _________________ (Roll No: _________)
-3. _________________ (Roll No: ________) [if applicable]
-
----
-
-**END OF REPORT**
-
----
-
-**Page Count:** ~15 pages  
-**Word Count:** ~5,500 words  
-**Tables:** 20+  
-**Code Snippets:** 10+  
-**References:** 8
 
