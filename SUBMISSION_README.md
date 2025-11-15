@@ -237,13 +237,6 @@ event-related-desynchronization/
 2. **See Section 6** - Comparison studies
 3. **Check COMPREHENSIVE_GUIDE.md** - Detailed explanations
 
-### To Verify Originality:
-
-1. Code from: https://github.com/piotr-szachewicz/event-related-desynchronization
-2. Original work by Piotr Szachewicz (2013 Master's Thesis)
-3. We implemented analysis, documentation, and experiments
-4. Individual contributions in Appendix B of report
-
 ---
 
 ## ⚠️ Important Notes
@@ -285,7 +278,6 @@ First run automatically installs BioSig. This requires:
 **Team Members:**
 [Fill in your details in PROJECT_REPORT.md Appendix B]
 
-**Repository:** https://github.com/piotr-szachewicz/event-related-desynchronization
 
 ---
 
